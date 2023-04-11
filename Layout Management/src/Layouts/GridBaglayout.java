@@ -7,7 +7,8 @@ public class GridBaglayout extends JFrame {
     setTitle("GridBagLayouts");
     GridBagLayout grid=new GridBagLayout();
     GridBagConstraints gbs=new  GridBagConstraints();
-    setLayout(grid);
+    setLayout(grid
+    );
     gbs.fill=GridBagConstraints.HORIZONTAL;
     
     gbs.gridx=0;

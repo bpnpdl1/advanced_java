@@ -4,10 +4,7 @@
  */
 package Servlets;
 
-/**
- *
- * @author Bpnpdl
- */
+import javax.servlet.*;
 public class MyHttpServlet {
     
 }
