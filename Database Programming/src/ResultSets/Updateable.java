@@ -23,7 +23,7 @@ public class Updateable {
                 System.out.println("Previous marks: " + marks);
                 
                 rs.updateInt(3, marks + inc);
-                rs.updateString(2, "Suzanna");
+                rs.updateString(2, "Bipin");
                 rs.updateRow();
                 
                 System.out.println(rs.getRow());

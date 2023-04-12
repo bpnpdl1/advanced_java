@@ -10,13 +10,25 @@
         </session-timeout>
     </session-config>
     
-    <servlet>
-        <servlet-name>simpleservlet</servlet-name>
-        <servlet-class>servlet.simpleservlet</servlet-class>
+
+    
+       <servlet>
+        <servlet-name>Generic_Servlet</servlet-name>
+        <servlet-class>servlet.Generic_Servlet</servlet-class>
         
     </servlet>
     <servlet-mapping>
-        <servlet-name>simpleservlet</servlet-name>
+        <servlet-name>Generic_Servlet</servlet-name>
+        <url-pattern>/Generic</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>HandleRequest</servlet-name>
+        <servlet-class>servlet.HandleRequest</servlet-class>
+        
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HandleRequest</servlet-name>
         <url-pattern>/abc</url-pattern>
     </servlet-mapping>
     
