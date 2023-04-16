@@ -13,13 +13,13 @@
 
     
        <servlet>
-        <servlet-name>Generic_Servlet</servlet-name>
-        <servlet-class>servlet.Generic_Servlet</servlet-class>
+        <servlet-name>simpleservlet</servlet-name>
+        <servlet-class>servlet.simpleservlet</servlet-class>
         
     </servlet>
     <servlet-mapping>
-        <servlet-name>Generic_Servlet</servlet-name>
-        <url-pattern>/Generic</url-pattern>
+        <servlet-name>simpleservlet</servlet-name>
+        <url-pattern>/abc</url-pattern>
     </servlet-mapping>
     
     <servlet>
@@ -29,7 +29,26 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>HandleRequest</servlet-name>
-        <url-pattern>/abc</url-pattern>
+        <url-pattern>/abd</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>FirstServlet</servlet-name>
+        <servlet-class>cookiedemo.FirstServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FirstServlet</servlet-name>
+        <url-pattern>/FirstServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+    <servlet-class>cookiedemo.SecondServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>SecondServlet</servlet-name>
+        <url-pattern>/SecondServlet</url-pattern>
     </servlet-mapping>
     
 </web-app>
