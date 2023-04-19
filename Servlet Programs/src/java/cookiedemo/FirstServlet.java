@@ -13,7 +13,8 @@ public class FirstServlet extends HttpServlet{
         response.setContentType("text/html");
         PrintWriter out=response.getWriter();
         
-        String name=request.getParameter("un");
+        String name=request.getParameter(""
+                + "");
         out.println("Hello "+name);
         
         Cookie ck=new Cookie("n",name);

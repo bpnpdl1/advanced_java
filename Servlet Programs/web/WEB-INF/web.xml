@@ -51,4 +51,29 @@
         <url-pattern>/SecondServlet</url-pattern>
     </servlet-mapping>
     
+    <servlet>
+        <servlet-name>Sessionfs</servlet-name>
+        <servlet-class>sessions.FirstServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Sessionfs</servlet-name>
+        <url-pattern>/Session_FirstServlet</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>SessionSs</servlet-name>
+        <servlet-class>sessions.SecondServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionSs</servlet-name>
+        <url-pattern>/Session_SecondServlet</url-pattern>
+    </servlet-mapping>
+       <servlet>
+        <servlet-name>ProcessServlet</servlet-name>
+        <servlet-class>databaseservlet.ProcessServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProcessServlet</servlet-name>
+        <url-pattern>/ProcessServlet</url-pattern>
+    </servlet-mapping>
+    
 </web-app>
