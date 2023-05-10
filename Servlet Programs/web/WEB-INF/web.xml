@@ -23,6 +23,15 @@
     </servlet-mapping>
     
     <servlet>
+        <servlet-name>Interface_Servlet</servlet-name>
+        <servlet-class>servlet.Interface_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Interface_Servlet</servlet-name>
+        <url-pattern>/Interface_Servlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
         <servlet-name>HandleRequest</servlet-name>
         <servlet-class>servlet.HandleRequest</servlet-class>
         
